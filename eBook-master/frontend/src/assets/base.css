@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
+.box {
+  background-color: #f4fcd9;
+  border: 100px solid #c5d8a4;
+  padding: 100px;
+  margin: 20px;
+  border-radius: 50px 20px;
+}
+.box3 {
+  background-color: #f4fcd9;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-right: 150px;
+  margin-top:30px;
+  border-radius: 50px 20px;
+  border: 10px solid #c5d8a4;
+}
+body {
+  background-color: #BB9981;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: transparent;
+}
+
+.box2 {
+  background-color: #f4fcd9;
+  border: 100px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px 0px;
+}
+
+.content>* {
+  color: #534340 !important;
+}
+
+.content h1 {
+  text-align: center;
+}
+.container-signUp {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .container-signUp {
+    width: 100%;
+  }
+
+  .box {
+    padding: 10px;
+    border: 10px solid #c5d8a4;
+  }
+
+  .box3 {
+    background-color: #f4fcd9;
+    border: 100px;
+    padding: 100px;
+    border-radius: 50px 20px;
+  }
+  a.navbar-item {
+    cursor: pointer;
+    color: #F4FCD9;
+    background-color: #534340;
+}
+.navbar-link{
+    cursor: pointer;
+    color: #F4FCD9;
+    background-color: #534340;
+}
+}
